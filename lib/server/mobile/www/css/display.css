@@ -1,0 +1,178 @@
+.switcher {
+	position: absolute;
+	width: 100%;
+	height: 64px;
+	top: 10px;
+	right: 0px;
+}
+
+.switch {
+  	position: absolute;
+	top: 10px;
+	left: 10px;
+  /*margin: 0 auto;*/
+}
+
+.tablet.landscape {
+	float: left;
+	background-image:url(img/tablet-landscape.png);
+	border: 0px solid black;
+	background-repeat:no-repeat;
+	background-position:center center;	
+	background-size: contain;
+	width: 32px;
+	height: 32px;
+}
+
+.tablet.portrait {
+	float: left;
+	display: block;
+	background-image:url(img/tablet-portrait.png);
+	border: 0px solid black;
+	background-repeat:no-repeat;
+	background-position:center center;	
+	background-size: contain;
+	width: 32px;
+	height: 32px;
+}
+
+.phone.landscape {
+	float: left;
+	background-image:url(img/phone-landscape.png);
+	border: 0px solid black;
+	background-repeat:no-repeat;
+	background-position:center center;	
+	background-size: contain;
+	width: 32px;
+	height: 32px;
+}
+
+.phone.portrait {
+	float: left;
+	display: block;
+	background-image:url(img/phone-portrait.png);
+	border: 0px solid black;
+	background-repeat:no-repeat;
+	background-position:center center;	
+	background-size: contain;
+	width: 32px;
+	height: 32px;
+}
+
+.ios {
+	/*float: left;*/
+	display: block;
+	background-image:url(img/ios.png);
+	border: 0px solid black;
+	background-repeat:no-repeat;
+	background-position:center center;	
+	background-size: contain;
+	width: 100px;
+	height: 32px;
+}
+
+.android {
+	/*float: left;*/
+	display: block;
+	background-image:url(img/android.png);
+	border: 0px solid black;
+	background-repeat:no-repeat;
+	background-position:center center;	
+	background-size: contain;
+	width: 100px;
+	height: 32px;
+}
+
+.windows {
+	/*float: left;*/
+	display: block;
+	background-image:url(img/windows.png);
+	border: 0px solid black;
+	background-repeat:no-repeat;
+	background-position:center center;	
+	background-size: contain;
+	width: 100px;
+	height: 32px;
+}
+
+.os {
+	position: absolute;
+	top: 10px;
+	width: 100px;
+	right: 100px;
+}
+
+.selected {
+	background-color:#F0F8FF;
+	padding-top:10px;
+	padding-bottom:10px;
+	border:1px solid #008B8B;
+	font-weight:bold
+}
+
+.dselected {
+	float:left;
+	background-color:#F0F8FF;
+	padding:4px;
+	border:1px solid #008B8B;
+	font-weight:bold
+}
+
+.dborder {
+	float:left;
+	background-color: transparent;
+	padding:4px;
+	border:1px solid transparent;
+	font-weight:bold
+}
+
+.border {
+	background-color: transparent;
+	padding-top:10px;
+	padding-bottom:10px;
+	border:1px solid transparent;
+	font-weight:
+}
+
+.force-mobile {
+	border: 0px solid transparent;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	-webkit-transform: scale(1.0);
+	-webkit-transform-origin: 0 0;
+	display: block;
+}
+.display {
+	position: absolute;
+	top: 98px;
+	left: 150px;
+}
+.displayCSS {
+	position: absolute;
+	top: 80px;
+	left: 10px;
+	background-image:url(/mobile/icon.png);
+	border: 0px solid black;
+	background-repeat:no-repeat;
+	background-position:center center;	
+	background-size: contain;
+	width: 118px;
+	height: 118px;	
+}
+.qrcode {
+	position: absolute;
+	bottom: 40px;
+	left: 40px;
+	width: 158px;
+	height: 158px;	
+	padding: 0px;
+	border: 1px solid black;
+	background-image:url(/mobile/qrcode);
+	background-repeat:no-repeat;
+	background-position:center center;	
+	background-size: contain;	
+}
